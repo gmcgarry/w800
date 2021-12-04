@@ -93,7 +93,7 @@ loop:
 	xor	r1, r3
 	st.w	r1, (r2, DATA)
 
-	jbr	loop
+	br	loop
 
 	rts
 
